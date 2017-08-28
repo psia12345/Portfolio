@@ -1,0 +1,28 @@
+nav {
+  border: 1px solid #eee;
+  padding: 1em 3em;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+nav .right-nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav .right-nav div:nth-child(-n+3) {
+  padding: 0 1em;
+}
+
+nav .right-nav div:nth-child(4) {
+  padding-left: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: #00d1ee;
+}
+
+a:hover {
+  color: #038af7;
+}
