@@ -26,3 +26,14 @@ a {
 a:hover {
   color: #038af7;
 }
+
+/* css Grid */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 20px;
+}
+.block {
+  height: 200px;
+  border: 1px solid black;
+}
